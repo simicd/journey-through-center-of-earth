@@ -18,3 +18,5 @@ In decimal numbers this is equivalent to deducting 180° if selected point is la
 > 
 > In degrees, minutes and seconds the position of Zurich is `[E 8° 32' 30.1143", N 47° 22' 3.5911"]` 
 > and `[W 171° 27' 29.8857", S 47° 22' 3.5911"]` is on the other side of the world.
+
+[![alt text](A-Journey.png "A Journey Through the Center of the Earth")](https://simicd.github.io/Journey-Through-Center-Of-Earth/)
