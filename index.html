@@ -138,6 +138,16 @@
 <script src="./wwwroot/scripts/lib.js"></script>
 <script>
     lib.globe();
+    d3.select("#description span.golden").on("mouseover", function (d) { 
+        d3.select(this).style("background", "rgba(204, 153, 0, 0.1)");
+        d3.select("#projection0 .position").attr("fill", "rgb(166, 128, 21)").attr("stroke", "rgb(85, 45, 132)");
+        d3.select("#projection0 .antipode").attr("fill", "rgb(166, 128, 21)").attr("stroke", "rgb(85, 45, 132)");
+    });
+    d3.select("#description span.golden").on("mouseout", function (d) { 
+        d3.select(this).style("background", "none");
+        d3.select("#projection0 .position").attr("fill", "rgb(204, 153, 0)").attr("stroke", "white");
+        d3.select("#projection0 .antipode").attr("fill", "rgb(204, 153, 0)").attr("stroke", "white");
+    });
 </script>
 
 </html>
