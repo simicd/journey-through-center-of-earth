@@ -1,7 +1,6 @@
 # A Journey Through the Center of the Earth
 
-This map helps to find what's on the other side of the world. By picking and dragging one of the two selectors it allows to see where one
-would end up if there was a tunnel going through the center of the planet. 
+[This map](https://simicd.github.io/journey-through-center-of-earth/) helps to find what's on the other side of the world. By picking and dragging one of the two selectors it allows to see where one would end up if there was a tunnel going through the center of the planet. 
 
 The map and globe were created with the great [d3.js](https://d3js.org/) library.
 
@@ -19,4 +18,4 @@ In decimal numbers this is equivalent to deducting 180° if selected point is la
 > In degrees, minutes and seconds the position of Zurich is `[E 8° 32' 30.1143", N 47° 22' 3.5911"]` 
 > and `[W 171° 27' 29.8857", S 47° 22' 3.5911"]` is on the other side of the world.
 
-[![alt text](A-Journey.png "A Journey Through the Center of the Earth")](https://simicd.github.io/Journey-Through-Center-Of-Earth/)
+[![alt text](A-Journey.png "A Journey Through the Center of the Earth")](https://simicd.github.io/journey-through-center-of-earth/)
